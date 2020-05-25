@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+#canvas {
+  height: 100vh;
+  width: 100vw;
+}
+.right {
+  float: right;
+}
+.black {
+  background-color: black;
+}
+#first-row {
+  height: 5%;
+  width: 100%;
+}
+#second-row {
+  height: 90%;
+  width: 100%;
+}
+#about {
+  height: 100%;
+  width: 40%;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#picture {
+  height: 100%;
+  width: 60%;
+  
+  background: url(assets/IMG_48.jpg) no-repeat;
+  background-size: cover;
+  filter: grayscale(85%);
+  box-shadow: inset -30px 0px 200px -10px blue;
+-webkit-box-shadow: inset -30px 0px 200px -10px blue;
+-moz-box-shadow: inset -30px 0px 200px -10px blue;  
+}
+#third-row {
+  height: 5%;
+  width: 100%;
+}
+#content {
+  height: 70vh;
+  width: 30vw;
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  
+}
